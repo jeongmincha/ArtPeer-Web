@@ -1,0 +1,75 @@
+.join-window {
+	position: relative;
+	top: 40px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	/*border: 1px solid #BDBDBD;*/
+	background-color: #EAEAEA;
+	/*text-shadow: 1px 1px 1px #FFF;*/
+	color: #000;
+}
+.join-window h1 {
+	font-size: 2em;
+}
+.join-window span{
+	font-size: 16px;
+	font-weight: normal;
+}
+.join-window p {
+	margin-bottom: 5px;
+}
+.blue {
+	font-weight: 700;
+	color: #0C6BB5;
+}
+.join-email, .join-password {
+	border: 1px solid #DADADA;
+	height: 30px;
+	width: 300px;
+	padding: 3px 3px 3px 5px;
+	font-size: 12px;
+	line-height: 15px;
+	/*box-shadow: inset 0px 1px 4px #ECECEC;
+	-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;*/
+}
+.join-button{
+	position: relative;
+	font-size: 16px;
+	background: grey;
+	border: none;
+	padding: 10px 55px 10px 55px;
+	margin-top: 25px;
+	color: #FFF;
+	  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+/*	box-shadow: 1px 1px 5px #B6B6B6;
+	-moz-box-shadow: 1px 1px 5px #B6B6B6;
+	-webkit-box-shadow: 1px 1px 5px #B6B6B6;*/
+}
+.join-button:hover {
+	background-color: #0C6BB5;
+}
+.frame {
+	width: 250px;
+	height: 350px;
+	background: rgb(50, 50, 50);
+	vertical-align: middle;
+	border: none;
+	margin: -10px;
+}
+.content-in-frame {
+	position: relative;
+	top: 25px;
+	width: 200px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+#recommendation-window li {
+	display: inline-block;
+}

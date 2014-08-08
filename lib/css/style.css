@@ -1,0 +1,122 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+body {
+  /*font-family: 'SeoulNamsanL';*/
+  font-family: 'KoPub DotUm', Arial, sans-serif;
+  /*font-family: "Nanum Gothic", Arial, sans-serif;*/
+  letter-spacing: 0.1em;
+  /*font-family: 'Lato', Calibri, Arial, sans-serif;*/
+  color: #89867e;
+  background: #fff;
+  overflow-x: hidden;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+@font-face {
+  /*font-family: 'SeoulNamsanL';
+  src: url('../fonts/SeoulNamsanL.otf');*/
+  font-family: 'KoPub DotUm';
+  src: url('../fonts/KoPub/KoPubDotum_Pro Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  min-width: 1024px;
+  text-align: center;
+  /*overflow: hidden;*/
+}
+/* Header Style */
+.header {
+  display: inline;
+}
+.home-navigation {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 40px;
+  background-color: rgb(50, 50, 50);
+  z-index: 100;
+}
+.navigation-content {
+  margin: 0px auto 0px auto;
+  width: 1024px;
+}
+.home-navigation img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 20px;
+}
+.right-fix {
+  position: relative;
+  float: right;
+  /*height: 40px;*/
+}
+#login-nav {
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+.wrap {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  width: 1024px;
+  max-width: 1024px;
+  margin: 0px auto 0px auto;
+  overflow: none;
+}
+.side-section {
+  width: 100%;
+  height: 700px;
+}
+.text-content {
+  /*width: 500px;*/
+  padding-top: 150px;
+}
+.side-content {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.left-side-img {
+  position: relative;
+  left: -300px;
+}
+.right-side-text {
+  float: right;
+  position: relative;
+}
+.cool-footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(220,220,220);
+  padding-top: 70px;
+  color: black;
+  font-weight: 900;
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+.category-in-browse li {
+  position: relative;
+  top: 30px;
+  display: inline-block;
+}
+.home-main-explain {
+  position: relative;
+  top: 40px;
+  margin-bottom: 40px;
+}

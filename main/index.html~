@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Art Peer</title>
+		<!-- meta -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Art Peer" />
+		<meta name="keywords" content="Art, peer, Art" />
+		<meta name="author" content="Jeong Min Cha" />
+		<!-- Include CSS files -->
+		<link rel="stylesheet" type="text/css" href="../lib/css/style.css" />
+		<!-- Include Javascript files -->
+	</head>
+	<body>
+		<div class="container">
+			<nav class="home-navigation">
+				<div class="navigation-content">
+					<a href="../main/" class="logo"><img src="../lib/images/Art-peer-logo.png" align="left" /></a>
+					<div class="right-fix">
+						<ul>
+							<li><button class="nav-button btn-1 btn-1b" onclick="location.href='../join/'">가입하기</button></li>
+							<li><button class="nav-button btn-1 btn-1b">작품 둘러보기</button></li>
+							<li><button class="nav-button btn-1 btn-1b">문의하기</button></li>
+							<li><button class="nav-button btn-1 btn-1b" onclick="location.href='../login/'">로그인하기</button></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="wrap">
+			<section class="side-section" id="sec1">
+				<div class="text-content side-content">
+					<h2>많은 미술작품들.</h2>
+					<p>아트피어에서 ~~명의 작가들과 ~~개의 작품들을 선택할 수 있습니다. <br />원하는 작품을 골라보세요.</p>
+					<button class="btn btn-1 btn-1a">작품 둘러보기</button>
+				</div>
+				<div class="side-content">
+					<img src="../lib/images/1.png" />
+				</div>
+			</section>
+			<section class="side-section" id="sec2">
+				<div class="side-content left-side-img">
+					<img src="../lib/images/1.png" />
+				</div>
+				<div class="text-content side-content right-side-text">
+					<h2>~~~</h2>
+					<p>아트피어에서 ~~명의 작가들과 ~~개의 작품들을 선택할 수 있습니다. <br />원하는 작품을 골라보세요.</p>
+					<button class="btn btn-1 btn-1a">나에게 맞는 작품 알아보기</button>
+				</div>
+			</section>
+			<section class="side-section" id="sec3">
+				<div class="text-content side-content">
+					<h2>~~~.</h2>
+					<p>아트피어에서 ~~명의 작가들과 ~~개의 작품들을 선택할 수 있습니다. <br />원하는 작품을 골라보세요.</p>
+					<button class="btn btn-1 btn-1a" onclick="location.href='../join' ">아트피어 가입하기</button>
+				</div>
+				<div class="side-content">
+					<img src="../lib/images/1.png" />
+				</div>
+			</section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="../lib/js/unslider.js"></script>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+.main-container {
+  /*width: 90%; 
+  max-width: 70em;
+  margin: 0 auto;*/
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 10px 5px #353535;
+     -moz-box-shadow: 0px 0px 10px 5px #353535;
+          box-shadow: 0px 0px 10px 5px #353535;
+  /* Adds the transparent background */
+  background-color: rgba(1, 1, 1, 0.8);
+  color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: grey;
+} 
+
+#wall {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  min-width: 1024px;
+  width: 100%;
+  max-width: 1440px;  
+  height: 600px;
+  text-align: center;
+  left: 0;
+  top: 50px;
+  right: 0; 
+  bottom: 0; 
+  left: auto;
+  /*right: auto;*/
+}
+
+#wall_wrap {
+  top:-20px;
+  position: relative;
+  width: 1000px;
+}
+
+#wall_image {
+  min-height: 100%;
+  min-width: 1440px;
+  width: 100%;
+  height: auto;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  /*
+  width: 1000px;
+  height: 600px;
+  */
+}
+
+#slide_frame{
+  position: absolute;
+  top: 50px;
+  left: 750px;
+  /*position:relative;*/
+  border:15px solid #353535; 
+  width: 100px; 
+  height: 150px; 
+  background: #FFFFFF; 
+  box-shadow: 0px 0px 40px #353535;
+  padding: 20px;
+  
+}
+#slide_frame img{
+  display:none;
+  width: 100px;
+  height: 150px;
+}
+
+#slide_frame img.active{
+  display:block;
+}
+
+#footer {
+  position: absolute;
+  /*bottom: 0px;*/
+  /*margin-bottom: 20px;*/
+  text-align: right;
+  width: 100%;
+  background-color: #8c8c8c;
+  -webkit-box-shadow: 0px 0px 7px 1px #8c8c8c;
+     -moz-box-shadow: 0px 0px 7px 1px #8c8c8c;
+          box-shadow: 0px 0px 7px 1px #8c8c8c;
+}
+
+#footer p {
+  font-size: 20px;
+  /*padding: 10px;*/
+}
+
+#footer img {
+  /*padding: 10px;*/
+  width: 48px;
+  height: 48px;
+}
